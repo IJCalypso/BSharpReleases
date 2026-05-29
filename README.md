@@ -6,7 +6,7 @@ Silk.Net (OpenAL for sound and GLFW for handling a USB joystick)
 Codebase will compile for:
 
 Windows  
-<img src="./Images/v1_0_0_Windows.JPG" alt="Windows" width="534" height="305"/>
+<img src="./Images/v1_0_0_Windows.png" alt="Windows" width="534" height="305"/>
 
 and Mac  
 <img src="./Images/v1_0_0_Mac.png" alt="Windows" width="534" height="305"/>
