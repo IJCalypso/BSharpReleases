@@ -22,9 +22,12 @@ I can't count the number of times I've single stepped through some test program 
 Releases can be found in the IJCalypso/BSharpReleases repository.  
 They are standalone so can be run from the directory that the zip file is extracted to without needing any additional installation.
 
-MacOS will probably block execution as the files are from an unknown source. If you wish to circumvent this it will be necessary to open a Terminal window and issue the command: xattr -cr path_to_folder. 
+MacOS will probably block execution as the files are from an unknown source. If you wish to circumvent this it will be necessary to open a Terminal window and issue the command: xattr -cr path_to_folder.
 
-**v1.0.0 29/05/2026**  
+**v1.0.1 : 05/06/2026**  
+Performance improvements in methods highlighted as high cpu users by PerfView.
+
+**v1.0.0 : 29/05/2026**  
 BBC Model B emulation with a 2MHz 6502A cpu and 3MHz 65C02 co-processor.  
 BBC Master 128 emulation with a 2MHz 65C02 cpu and 4MHz 65C02 co-processor.  
 1770 disk emulation - 8271 not emulated.  
