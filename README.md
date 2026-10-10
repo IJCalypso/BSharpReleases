@@ -9,7 +9,7 @@ Windows
 <img src="./Images/v1_1_0_Windows.png" alt="Windows" width="534" height="305"/>
 
 and Mac  
-<img src="./Images/v1_0_0_Mac.png" alt="Windows" width="534" height="305"/>
+<img src="./Images/v1_1_0_Mac.png" alt="Windows" width="534" height="305"/>
 
 ## Thanks to:
 Everyone that contributed to the many Stardot forum threads.
