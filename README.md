@@ -1,7 +1,7 @@
 # BSharp
 BBC Micro emulator written in C# using:  
 Avalonia UI for the user interface  
-Silk.Net (OpenAL for sound and GLFW for handling a USB joystick)
+Silk.Net (OpenAL for sound and SDL for handling a USB joystick)
 
 Codebase will compile for:
 
@@ -22,7 +22,13 @@ I can't count the number of times I've single stepped through some test program 
 Releases can be found in the IJCalypso/BSharpReleases repository.  
 They are standalone so can be run from the directory that the zip file is extracted to without needing any additional installation.
 
-MacOS will probably block execution as the files are from an unknown source. If you wish to circumvent this it will be necessary to open a Terminal window and issue the command: xattr -cr path_to_folder.
+macOS will probably block execution as the files are from an unknown source. If you wish to circumvent this it will be necessary to open a Terminal window and issue the command: xattr -cr path_to_folder.
+
+**v1.2.0 : 14/11/2026**  
+Change publishing from ReadyToRun to Aot to improve startup time.  
+Change joystick handling from GLFW to SDL. Cures a shutdown error on macOS.  
+Added rom slot folders under ROMS to allow rom images to be dropped in.  
+Changed the scheduler to spinwait for the time after a frame has been drawn until the next 20ms tick. This is inefficient but is currently the only way I can stop a Windows Arm64 processor from putting a core to sleep and then introducing lots of timing jitter when it wakes it up. Work in progress.  
 
 **v1.1.0 : 10/10/2026**  
 Added the ability to select between two keyboard maps.  
